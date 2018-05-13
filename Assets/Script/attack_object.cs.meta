@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7768b5accbd3b439789e7bfed2c2c642
+timeCreated: 1525601947
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HP: {fileID: 1698211185029968, guid: 3530686b38afc438e963392590eb5ef0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
