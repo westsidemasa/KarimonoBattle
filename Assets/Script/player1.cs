@@ -10,9 +10,10 @@ public class player1 : MonoBehaviour {
 	float down = 0.0f;
 
 
-	item script;
-	float item1 = 1.0f;//アイテム指定用
+	public item item;												//itemスクリプトを	定義
+	float item1 = 1.0f;//アイテム指定用           						  取ってきた数を入れるための変数
 	public GameObject punch;
+
 
 	bool touch;//床との接地判定
 
@@ -22,7 +23,6 @@ public class player1 : MonoBehaviour {
 		//キャラクター番号を取ってくる
 
 		//キャラクターごとに設定する
-		
 	}
 	
 	// Update is called once per frame
@@ -51,12 +51,20 @@ public class player1 : MonoBehaviour {
 		}
 
 
-
 		//攻撃
 		if (Input.GetKeyDown(KeyCode.Slash) && 1.0f <= item1 && item1 < 5.0f){
+			Debug.Log (80);
 			Instantiate (punch, transform.position, transform.rotation);
-			item1 = script.items1;
+			Debug.Log (81);
+			item = GetComponent<item> ();								//取ってくる
+			Debug.Log (82);
+			item1 = item.items1;										//代入
+			Debug.Log (83);
 			Debug.Log (item1 + 2);
+
+
+
+
 		}
 	}
 

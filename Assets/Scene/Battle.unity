@@ -535,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a980607247784b4e816ff2acf5fe5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item: {fileID: 1430713881}
   punch: {fileID: 1291149821272770, guid: af78c3e9768bd41a79bbf755159cd1f1, type: 2}
 --- !u!1 &787225203
 GameObject:

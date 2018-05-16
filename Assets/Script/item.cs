@@ -25,7 +25,7 @@ public class item : MonoBehaviour {
 	void Update () {
 		//以下アイテム使用後の変更１
 		if (Input.GetKeyDown(KeyCode.Slash)){
-			items1 = Random.Range (1.0f, 10.0f);
+			items1 = Random.Range (1.0f, 10.0f);							//この変数を取ってきたい
 			items1a = 1;
 			Debug.Log (items1);
 			//ここでdestroyで消せたら本望
